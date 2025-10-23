@@ -4,7 +4,7 @@ body {
 }
 
 .title {
-    margin: 300px auto 0px auto;
+    margin: 60px auto 0px auto;
     padding-bottom: 2px;
     font-size: 60px;
     display: flex;
@@ -14,7 +14,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
     color: #273549;
-    height: 600px;
+    height: 800px;
     width: 1000px;   
 }
 
@@ -64,10 +64,11 @@ body {
 .line {
    margin-top: 60px;
    margin-left: 100px;
+   margin-right: auto;
    background-color: #C4C4C4;
    height: 5px;
    border-radius: 4px;
-   width: 900px;
+   width: 890px;
 }
 
 .passwords-btn {
@@ -78,7 +79,7 @@ body {
     border: none;
     border-radius: 14px;
     font-size: 30px;
-    color: white;
+    color: #5DEF92;
     width: 400px;
     height: 80px;
 }
@@ -91,5 +92,15 @@ body {
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-left: 100px;
+    margin-left: 60px;
+}
+
+#showCopy-text {
+    height: 100px;
+    width: 400px;
+    background-color: #10B981;
+    color: white;
+    border-radius: 10px;
+    padding: 25px 10px 25px 160px;
+    opacity: 0;
 }

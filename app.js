@@ -30,7 +30,7 @@ function passwordGenerator() {
     passwordOne.textContent = one;
     copyOne = one;
 
-    for (let i=16; i < 34; i++) {
+    for (let i=16; i < 32; i++) {
         genRandom()
         two += characters[randomPassword];
     }
@@ -41,8 +41,22 @@ function passwordGenerator() {
 
 function copyPasswordOne() {
     navigator.clipboard.writeText(copyOne);
+    showCopy();
 }
 
 function copyPasswordTwo() {
     navigator.clipboard.writeText(copyTwo);
+    showCopy();
+}
+
+function showCopy() {
+    let alertCopy = document.getElementById("showCopy-text");
+    let currentOpacity = window.getComputedStyle.opacity;
+
+    alertCopy.style.opacity = 1;
+
+    setTimeout(() => {
+         alertCopy.style.opacity = 0;
+    },600);
+    
 }
