@@ -9,6 +9,10 @@ Built with simple HTML5, CSS3 and Vanilla JavaScript.
 
 ## Video
 
+
+https://github.com/user-attachments/assets/783f9ea7-3ca0-4352-bea6-af4a6ee5e867
+
+
 ## Features
 - Generates secure random passwords.
 
