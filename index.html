@@ -8,9 +8,21 @@
 </head>
 <body>
     <div class="title">
-        <h2>Generate a <br>random password</br></h2>
-        <p>Never use unsecure password again</p>
+        <h2 class="main-text">Generate a 
+          <span class="main-text-2"><br>random password</span><br></span></h2>
+
+        <p class="small-text">Never use an insecure password again.</p>
+
+        <button class="main-btn" onclick="passwordGenerator()">Generate passwords</button>
+
+        <div class="line"></div>
+        
     </div>
+
+      <div class="passwords">
+            <button id="password-1" class="passwords-btn"></button>
+            <button id="password-2" class="passwords-btn"></button>
+        </div>
     
 </body>
 <script src="app.js"></script>

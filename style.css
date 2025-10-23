@@ -4,7 +4,8 @@ body {
 }
 
 .title {
-    margin-top: 300px;
+    margin: 300px auto 0px auto;
+    padding-bottom: 2px;
     font-size: 60px;
     display: flex;
     flex-direction: column;
@@ -13,4 +14,78 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
     color: #273549;
+    height: 600px;
+    width: 1000px;   
+}
+
+.main-text {
+    margin-bottom: 45px;
+}
+.main-text-2 {
+    color: #10B981;
+}
+
+.small-text {
+    margin-top: 0px;
+    margin-left: 90px;
+    font-size: 40px;
+    color: #6B7280;
+}
+
+.main-btn {
+    padding: 20px 40px 20px 40px;
+    font-size: medium;
+    background-color: #10B981;
+    border: none;
+    border-radius: 12px;
+    font-size: 30px;
+    color: white;
+    margin-left: 100px;
+    margin-right: auto;
+    margin: 40px auto 0px 100px;
+}
+
+.main-btn {
+    padding: 20px 40px 20px 40px;
+    font-size: medium;
+    background-color: #10B981;
+    border: none;
+    border-radius: 12px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+}
+
+.main-btn:hover {
+    background-color: #273549;
+    cursor:pointer;
+}
+
+.line {
+   margin-top: 60px;
+   margin-left: 100px;
+   background-color: #C4C4C4;
+   height: 5px;
+   border-radius: 4px;
+   width: 900px;
+}
+
+.passwords-btn {
+    padding: 20px 40px 20px 40px;
+    margin-top: 60px;
+    font-size: medium;
+    background-color: #273549;
+    border: none;
+    border-radius: 14px;
+    font-size: 30px;
+    color: white;
+    width: 400px;
+    height: 80px;
+}
+
+.passwords {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-left: 100px;
 }
