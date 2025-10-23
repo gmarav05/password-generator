@@ -83,6 +83,10 @@ body {
     height: 80px;
 }
 
+.passwords-btn:hover {
+    cursor: pointer;
+}
+
 .passwords {
     display: flex;
     justify-content: center;

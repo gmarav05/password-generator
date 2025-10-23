@@ -4,6 +4,9 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let passwordOne = document.getElementById("password-1");
 let passwordTwo = document.getElementById("password-2");
 
+let copyOne = ""
+let copyTwo = ""
+
 let randomPassword;
 
 function genRandom() {
@@ -25,6 +28,7 @@ function passwordGenerator() {
     }
 
     passwordOne.textContent = one;
+    copyOne = one;
 
     for (let i=16; i < 34; i++) {
         genRandom()
@@ -32,4 +36,13 @@ function passwordGenerator() {
     }
 
     passwordTwo.textContent = two;
+    copyTwo = two;
+}
+
+function copyPasswordOne() {
+    navigator.clipboard.writeText(copyOne);
+}
+
+function copyPasswordTwo() {
+    navigator.clipboard.writeText(copyTwo);
 }
