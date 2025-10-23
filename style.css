@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-color: #ECFDF5;
+}
+
+.title {
+    margin-top: 300px;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: #273549;
+}
